@@ -1,8 +1,8 @@
-#Asks user to enter age, end= prompt Var
+#Asks user to enter age, end = tells PY not to end the line with a newlineand to go to the next line
 print("How old are you?", end = ' ')
 #Var defined by user
 age = input ()
-#asks the user to enter height, end ' ' prompts var
+#asks the user to enter height
 print("How tall are you?", end = ' ')
 #var defined by user
 height = input ()
