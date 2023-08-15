@@ -16,4 +16,4 @@ print("W O A H! How much was that exactly?!", end = ' ')
 
 cost_two = input()
 
-print (f"Well had you avoided your first mistake you could have only spent {cost - cost_two} on your smartest purchase!")
+print (f"Well had you avoided your first mistake you could have only spent {cost_two - cost} on your smartest purchase!")
