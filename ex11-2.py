@@ -4,7 +4,7 @@ moeny_spent = input ()
 print("Interesting..")
 
 print("How much did that cost?", end = ' ')
-cost = input ()
+cost = input int ()
 
 print("Did you regret it?", end = ' ')
 regret = input()
@@ -14,6 +14,6 @@ smart = input()
 
 print("W O A H! How much was that exactly?!", end = ' ')
 
-cost_two = input()
+cost_two = input int ()
 
 print (f"Well had you avoided your first mistake you could have only spent {cost_two - cost} on your smartest purchase!")
